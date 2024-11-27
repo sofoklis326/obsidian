@@ -11,12 +11,10 @@
             "id": "4c7a1b05321154c4",
             "type": "leaf",
             "state": {
-              "type": "image",
-              "state": {
-                "file": "Zotero Notes/Screenshot from 2024-11-27 02-38-01.png"
-              },
-              "icon": "lucide-image",
-              "title": "Screenshot from 2024-11-27 02-38-01"
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
             }
           }
         ]
@@ -168,14 +166,13 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "obsidian-git:Open Git source control": false,
-      "templater-obsidian:Templater": false
+      "obsidian-git:Open Git source control": false
     }
   },
   "active": "39d2cfed22ffcf36",
   "lastOpenFiles": [
-    "Zotero Notes/abramsonAccurateStructurePrediction2024.md",
     "Zotero Notes/Screenshot from 2024-11-27 02-38-01.png",
+    "Zotero Notes/abramsonAccurateStructurePrediction2024.md",
     "Programming Stuff/git_basics.png",
     "Programming Stuff/Git Basics.md",
     "Travel Stuff/Stuff to take on trip.md",
