@@ -11,10 +11,14 @@
             "id": "4c7a1b05321154c4",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Zotero Notes/abramsonAccurateStructurePrediction2024.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "abramsonAccurateStructurePrediction2024"
             }
           }
         ]
@@ -135,10 +139,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "first attempts.md"
+                "file": "Zotero Notes/abramsonAccurateStructurePrediction2024.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of first attempts"
+              "title": "Outline of abramsonAccurateStructurePrediction2024"
             }
           },
           {
@@ -171,17 +175,19 @@
   },
   "active": "39d2cfed22ffcf36",
   "lastOpenFiles": [
-    "Zotero Notes/Screenshot from 2024-11-27 02-38-01.png",
+    "Zotero Notes/Untitled.md",
     "Zotero Notes/abramsonAccurateStructurePrediction2024.md",
+    "Zotero Notes/Screenshot from 2024-11-27 02-38-01.png",
+    "Travel Stuff/Stuff to take on trip.md",
+    "Zotero Notes/abramsonAccurateStructurePrediction2024.md",
+    "Tokens/Git Tokens.md",
     "Programming Stuff/git_basics.png",
     "Programming Stuff/Git Basics.md",
-    "Travel Stuff/Stuff to take on trip.md",
     "Git Token.md",
     "Zotero Notes",
     "Travel Stuff",
     "Tokens/huggingface.md",
     "Programming Stuff",
-    "Tokens/Git Tokens.md",
     "Tokens",
     "first attempts.md",
     "Welcome.md"
