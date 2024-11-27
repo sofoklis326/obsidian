@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "first attempts.md",
+                "file": "abramsonAccurateStructurePrediction2024.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "first attempts"
+              "title": "abramsonAccurateStructurePrediction2024"
             }
           }
         ]
@@ -176,6 +176,7 @@
   "active": "4c7a1b05321154c4",
   "lastOpenFiles": [
     "first attempts.md",
+    "abramsonAccurateStructurePrediction2024.md",
     "Welcome.md"
   ]
 }
