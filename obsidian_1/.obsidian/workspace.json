@@ -11,14 +11,12 @@
             "id": "4c7a1b05321154c4",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "abramsonAccurateStructurePrediction2024.md",
-                "mode": "source",
-                "source": false
+                "file": "Zotero Notes/Screenshot from 2024-11-27 02-38-01.png"
               },
-              "icon": "lucide-file",
-              "title": "abramsonAccurateStructurePrediction2024"
+              "icon": "lucide-image",
+              "title": "Screenshot from 2024-11-27 02-38-01"
             }
           }
         ]
@@ -170,13 +168,25 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "obsidian-git:Open Git source control": false
+      "obsidian-git:Open Git source control": false,
+      "templater-obsidian:Templater": false
     }
   },
-  "active": "4c7a1b05321154c4",
+  "active": "39d2cfed22ffcf36",
   "lastOpenFiles": [
+    "Zotero Notes/abramsonAccurateStructurePrediction2024.md",
+    "Zotero Notes/Screenshot from 2024-11-27 02-38-01.png",
+    "Programming Stuff/git_basics.png",
+    "Programming Stuff/Git Basics.md",
+    "Travel Stuff/Stuff to take on trip.md",
+    "Git Token.md",
+    "Zotero Notes",
+    "Travel Stuff",
+    "Tokens/huggingface.md",
+    "Programming Stuff",
+    "Tokens/Git Tokens.md",
+    "Tokens",
     "first attempts.md",
-    "abramsonAccurateStructurePrediction2024.md",
     "Welcome.md"
   ]
 }

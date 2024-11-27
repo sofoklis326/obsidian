@@ -11,5 +11,6 @@
   "whichNotesToOpenAfterImport": "first-imported-note",
   "pdfExportImageOCR": true,
   "pdfExportImageTesseractPath": "/usr/bin/tesseract",
-  "pdfExportImageOCRLang": "eng"
+  "pdfExportImageOCRLang": "eng",
+  "pdfExportImageTessDataDir": "/home/sofoklis326/obsidian"
 }
