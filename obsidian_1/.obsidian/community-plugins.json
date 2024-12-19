@@ -1,5 +1,7 @@
 [
   "obsidian-git",
   "obsidian-zotero-desktop-connector",
-  "local-gpt"
+  "local-gpt",
+  "text-extractor",
+  "ytranscript"
 ]
