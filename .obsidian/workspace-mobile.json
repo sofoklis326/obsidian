@@ -11,14 +11,12 @@
             "id": "243b4c41d6597ad1",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "obsidian_1/first attempts.md",
-                "mode": "source",
-                "source": false
+                "file": "obsidian_1/Programming Stuff/git_basics.png"
               },
-              "icon": "lucide-file",
-              "title": "first attempts"
+              "icon": "lucide-image",
+              "title": "git_basics"
             }
           }
         ]
@@ -158,9 +156,41 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "243b4c41d6597ad1",
+  "active": "013f86a0661387dd",
   "lastOpenFiles": [
+    "obsidian_1/abramsonAccurateStructurePrediction2024.md",
+    "obsidian_1/Work/Summary IL23 paper.md",
+    "obsidian_1/Notes.md",
+    "obsidian_1/Bike Spoke Adjustment Video Transcript.md",
+    "/obsidian_1/abramsonAccurateStructurePrediction2024.md",
+    "/obsidian_1/Work/Summary IL23 paper.md",
+    "/obsidian_1/Notes.md",
+    "/obsidian_1/Bike Spoke Adjustment Video Transcript.md",
+    "obsidian_1/Work",
+    "/obsidian_1/Work",
+    "obsidian_1/Zotero Notes/Screenshot from 2024-11-27 02-38-01.png",
+    "obsidian_1/Zotero Notes/Untitled.md",
+    "obsidian_1/Zotero Notes/abramsonAccurateStructurePrediction2024.md",
     "obsidian_1/first attempts.md",
+    "/obsidian_1/Zotero Notes/Untitled.md",
+    "obsidian_1/Travel Stuff/Stuff to take on trip.md",
+    "obsidian_1/Tokens/huggingface.md",
+    "obsidian_1/Programming Stuff/git_basics.png",
+    "obsidian_1/Programming Stuff/Git Basics.md",
+    "/obsidian_1/Zotero Notes/abramsonAccurateStructurePrediction2024.md",
+    "/obsidian_1/Zotero Notes/Screenshot from 2024-11-27 02-38-01.png",
+    "/obsidian_1/Travel Stuff/Stuff to take on trip.md",
+    "/obsidian_1/Tokens/huggingface.md",
+    "/obsidian_1/Programming Stuff/git_basics.png",
+    "/obsidian_1/Programming Stuff/Git Basics.md",
+    "obsidian_1/Zotero Notes",
+    "obsidian_1/Travel Stuff",
+    "obsidian_1/Tokens",
+    "obsidian_1/Programming Stuff",
+    "/obsidian_1/Zotero Notes",
+    "/obsidian_1/Travel Stuff",
+    "/obsidian_1/Tokens",
+    "/obsidian_1/Programming Stuff",
     "README.md",
     "obsidian_1/Welcome.md"
   ]
