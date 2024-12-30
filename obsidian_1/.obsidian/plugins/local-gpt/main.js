@@ -1666,6 +1666,7 @@ function preparePrompt(prompt = "", selectedText, context) {
 
 // src/providers/ollama.ts
 var SYMBOLS_PER_TOKEN = 2.5;
+var CONTEXT_LENGTH_LIMIT = 4096;
 var EMBEDDING_CONTEXT_LENGTH_LIMIT = 2048;
 var MODEL_INFO_CACHE = /* @__PURE__ */ new Map();
 var OllamaAIProvider = class {
@@ -1694,7 +1695,9 @@ var OllamaAIProvider = class {
     if (action.system)
       requestBody.system = action.system;
     if (images.length)
-      requestBody.images = images;
+      requestBody.images = images.map(
+        (image) => image.replace(/^data:image\/(.*?);base64,/, "")
+      );
     const { contextLength, lastContextLength } = await this.getCachedModelInfo(requestBody.model);
     const bodyLengthInTokens = Math.ceil(
       JSON.stringify(requestBody).length / SYMBOLS_PER_TOKEN
@@ -1705,13 +1708,14 @@ var OllamaAIProvider = class {
       lastContextLength,
       bodyLengthInTokens
     });
-    if (contextLength > 0 && requestBody.options) {
+    if (images.length === 0 && // Only optimize when there are no images
+    contextLength > 0 && requestBody.options && bodyLengthInTokens > CONTEXT_LENGTH_LIMIT) {
       if (bodyLengthInTokens > lastContextLength) {
         requestBody.options.num_ctx = Math.min(
           contextLength,
           Math.round(bodyLengthInTokens * 1.2)
         );
-      } else if (bodyLengthInTokens < lastContextLength * 0.5) {
+      } else if (bodyLengthInTokens < lastContextLength * 0.25) {
         requestBody.options.num_ctx = Math.min(
           contextLength,
           Math.round(bodyLengthInTokens * 1.2)
@@ -1953,7 +1957,7 @@ var OpenAICompatibleAIProvider = class {
           ...images.map((image) => ({
             type: "image_url",
             image_url: {
-              url: `data:image/jpeg;base64,${image}`
+              url: image
             }
           }))
         ]
@@ -1997,6 +2001,9 @@ var OpenAICompatibleAIProvider = class {
               const message = line.replace(/^data: /, "");
               if (message === "[DONE]") {
                 break;
+              }
+              if (line.startsWith(":")) {
+                continue;
               }
               try {
                 const parsed = JSON.parse(message);
@@ -30354,13 +30361,16 @@ var LocalGPT = class extends import_obsidian6.Plugin {
           return Promise.resolve("");
         }
         return this.app.vault.adapter.readBinary(filePath.path).then((buffer) => {
-          const bytes = new Uint8Array(buffer);
-          const output = [];
-          for (const byte of bytes) {
-            output.push(String.fromCharCode(byte));
-          }
-          const binString = output.join("");
-          return btoa(binString);
+          const extension = filePath.extension.toLowerCase();
+          const mimeType = extension === "jpg" ? "jpeg" : extension;
+          const blob = new Blob([buffer], {
+            type: `image/${mimeType}`
+          });
+          return new Promise((resolve) => {
+            const reader = new FileReader();
+            reader.onloadend = () => resolve(reader.result);
+            reader.readAsDataURL(blob);
+          });
         });
       })
     )).filter(Boolean) || [];

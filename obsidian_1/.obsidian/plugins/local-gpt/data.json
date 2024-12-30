@@ -2,8 +2,8 @@
   "providers": {
     "ollama": {
       "url": "http://localhost:11434",
-      "defaultModel": "llama3.2:1b",
-      "embeddingModel": "llama3.2:1b",
+      "defaultModel": "llama3.2:3b",
+      "embeddingModel": "llama3.2:3b",
       "type": "ollama"
     },
     "ollama_fallback": {
@@ -32,9 +32,9 @@
   },
   "actions": [
     {
-      "name": "🪄 General help",
+      "name": "Summarize Annotations",
       "prompt": "",
-      "system": "You are an assistant helping a user write more content in a document based on a prompt. Output in markdown format. Do not use links. Do not include literal content from the original document."
+      "system": "You are an assistant of academic university level helping a user organize paper notes/annotations in a concise manner, without disregarding information. Correct grammar errors, make text coharent, reform the content in a document. Arrange the notes in points which can be used later on in a mind map. Output in markdown format. "
     },
     {
       "name": "✍️ Continue writing",
