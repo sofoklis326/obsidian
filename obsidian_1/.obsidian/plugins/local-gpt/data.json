@@ -37,9 +37,10 @@
       "system": "You are an assistant of academic university level helping a user organize paper notes/annotations in a concise manner, without disregarding information. Correct grammar errors, make text coharent, reform the content in a document. Arrange the notes in points which can be used later on in a mind map. Output in markdown format. "
     },
     {
-      "name": "✍️ Continue writing",
-      "prompt": "Act as a professional editor with many years of experience as a writer. Carefully finalize the following text, add details, use facts and make sure that the meaning and original style are preserved. Purposely write in detail, with examples, so that your reader is comfortable, even if they don't understand the specifics. Don't use clericalisms, evaluations without proof with facts, passive voice. Use Markdown markup language for formatting. Answer only content and nothing else, no introductory words, only substance.",
-      "system": "You are an AI assistant that follows instruction extremely well. Help as much as you can."
+      "name": "Translate",
+      "prompt": "Translate very accurately to English.",
+      "system": "You are an AI assistant that follows instruction extremely well. Help as much as you can.",
+      "model": "llama3.2:3b"
     },
     {
       "name": "🍭 Summarize",
@@ -53,9 +54,9 @@
       "replace": true
     },
     {
-      "name": "✅ Find action items",
-      "prompt": "Act as an assistant helping find action items inside a document. An action item is an extracted task or to-do found inside of an unstructured document. Use Markdown checkbox format: each line starts with \"- [ ] \"",
-      "system": "You are an AI assistant that follows instruction extremely well. Help as much as you can."
+      "name": "Summarize in a very simple way",
+      "prompt": "You are an AI assistant that explains the scientific content in a very simple manner, often using examples. ",
+      "system": "You are an AI assistant that explains the content in a very simple manner, often using examples."
     },
     {
       "name": "🧠 New System Prompt",

@@ -3,5 +3,6 @@
   "local-gpt",
   "text-extractor",
   "ytranscript",
-  "obsidian-tasks-plugin"
+  "obsidian-tasks-plugin",
+  "obsidian-latex-suite"
 ]
