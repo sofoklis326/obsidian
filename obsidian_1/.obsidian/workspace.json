@@ -53,12 +53,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Requirements Shiny.md",
+                "file": "Work/Shiny App/Requirements Shiny App.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Requirements Shiny"
+              "title": "Requirements Shiny App"
             }
           }
         ],
@@ -215,21 +215,28 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "9e56b297124c3a24",
+  "active": "39d2cfed22ffcf36",
   "lastOpenFiles": [
-    "SCVI.md",
-    "Requirements Shiny.md",
-    "Explanations.md",
-    "blood846824.pdf",
-    "Mechanisms of escape - Zeiser.md",
+    "Work/ScVI/SCVI.md",
     "Welcome.md",
-    "Feature Selection scRNA.md",
-    "Knee Exercises.md",
-    "ML Workshop.md",
     "Tasks.md",
-    "Bike Spoke Adjustment Video Transcript.md",
-    "Work/Summary IL23 paper.md",
-    "Zotero Notes/abramsonAccurateStructurePrediction2024.md",
+    "Work/ScVI",
+    "Work/scRNA/Feature Selection scRNA.md",
+    "Work/Untitled",
+    "ML Workshop.md",
+    "Mechanisms of escape - Zeiser.md",
+    "Work/scRNA",
+    "Work/Flow Cytometry/Explanations.md",
+    "Work/Flow Cytometry",
+    "Work/Paper Summaries",
+    "Work/Paper Summaries/Zotero Notes/abramsonAccurateStructurePrediction2024.md",
+    "blood846824.pdf",
+    "Work/Paper Summaries/Summary IL23 paper.md",
+    "Work/Shiny App/Requirements Shiny App.md",
+    "Personal",
+    "Work/Shiny App",
+    "Personal/Knee Exercises.md",
+    "Personal/Bike Spoke Adjustment Video Transcript.md",
     "Zotero Notes/Screenshot from 2024-11-27 02-38-01.png",
     "Zotero Notes/Untitled.md",
     "abramsonAccurateStructurePrediction2024.md",
@@ -243,16 +250,10 @@
     "w1.md",
     "s4.pdf",
     "s4.md",
-    "Work",
-    "Travel Stuff/Stuff to take on trip.md",
+    "Personal/Travel Stuff/Stuff to take on trip.md",
     "Tokens/Git Tokens.md",
-    "Programming Stuff/git_basics.png",
-    "Programming Stuff/Git Basics.md",
-    "Git Token.md",
-    "Zotero Notes",
-    "Travel Stuff",
-    "Tokens/huggingface.md",
-    "Programming Stuff",
-    "Tokens"
+    "Personal/Programming Stuff/git_basics.png",
+    "Personal/Programming Stuff/Git Basics.md",
+    "Git Token.md"
   ]
 }
