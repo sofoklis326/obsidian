@@ -1,7 +1,7 @@
 
-- Identifiers
-- Sampling time points
-- Time point of transplants
+- Identifiers (Patient ID available)
+- Sampling time points (date of collection/procession available)
+- Time point of transplants ()
 - Count of therapies and amount of cells remaining
 - Colors for various therapies
 - Grouping by intermediate and adverse type of the disease
